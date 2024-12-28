@@ -5,8 +5,16 @@
     color: black;
 }
 
+body {
+    outline: 2px solid black;
+    width: 360px;
+    padding: 10px;
+    margin: 10px;
+}
+
 h1 {
     text-decoration: underline;
+    text-align: center;
 }
 
 h2 {
@@ -14,10 +22,15 @@ h2 {
 }
 
 img {
-    width: 400px;
+    width: 300px;
     height: auto;
+    padding: 20px;
 }
 
 a {
     text-decoration: none;
+}
+
+p {
+    padding-left: 10px;
 }
